@@ -1,0 +1,19 @@
+:root{
+    /*couleurs*/
+    --beige: #F4E8D9;
+    --bleu-marine: #006E90;
+    --blanc: #F8FAFC;
+    --gris: #333333;
+    --violet: #4A3F55;
+
+    /*taille de la police*/
+    --txt-XL: 2.125rem;
+    --txt-L: 1.5rem;
+    --txt-M: 0.938rem;
+    --txt-S: 0.688rem;
+
+    /*typos*/
+    --font-exo: 'Exo 2', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-source: 'Source Sans Pro', sans-serif;
+}

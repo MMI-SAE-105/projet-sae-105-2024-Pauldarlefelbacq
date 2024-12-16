@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Darle-Felbacq
+- PRÉNOM : Paul
+- GROUPE : TD A-2
 - URL du site :
 - URL FIGMA :

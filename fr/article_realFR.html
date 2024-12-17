@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" sizes="96x96">
+
+        <title>Aft'Hertz</title>
+        
+        <link rel="stylesheet" href="./src/css/style.css">
+        <script type="module" src="./src/js/script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <a class="header__logo-link" href="/">
+                <img
+                  class="header__logo"
+                  src="./assets/img/logo/logosite.avif"
+                  alt="Icone d'Aft'Hertz"
+                />
+              </a>
+            <div class="header__lang">
+                <a href="/" class="header__lang__link">FR</a>
+                <a href="#" class="header__lang__link">EN</a>
+            </div>
+            <h2 class="header__title">Aft'Hertz</h2>
+
+            <button
+          class="header__menu-btn menu-btn"
+          aria-label="menu"
+          aria-expanded="false"
+          aria-controls="mainNav"
+        >
+          <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link underline" href="/">Accueil</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="article_radioFR.html">Découverte de la radio</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="article_filmFR.html">Good Morning Vietnam</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="article_realFR.html">Orson Welles</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="article_livreFR.html">La radio ? Mais c'est très simple</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="article_musiqueFR.html">Radio Ga Ga</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="friseFR.html">Évolution de la radio</a>
+              </li>
+        </header>
+
+        
+        <main>
+            <div class="hero__art">
+                <h1 class="hero__art-title">Orson Welles<br>Un réalisateur ayant un lien étroit avec la radio.</h1>
+                <img 
+                src="../assets/img/img/Orson_welles.avif" 
+                alt="image du réalisateur Orson Welles" 
+                loading="lazy">
+                <h2 class="hero__art-sub-title">Orson Welles : Un Géant du Cinéma et de la Radio</h2>
+                <p class="hero__art-txt-ex">L'importance historique de la radio se reflète dans la carrière d'Orson Welles, un réalisateur visionnaire qui a marqué le cinéma et la radiodiffusion au 20e siècle.</p>
+            </div>
+
+            <section class="article">
+                <img 
+                class="article__img"
+                src="../assets/img/img/orsonwellesjeune1.avif" 
+                alt="image d'Orson Welles jeune"
+                loading="lazy">
+                <p class="article__txt-legende">Orson Welles pendant sa jeunesse à la radio</p>
+            </section>
+
+            <section class="article">
+                <h3 class="article__sub-title">Son histoir avec la radio</h3>
+                <p  class="article__txt">Né en 1915, Welles s'est d'abord fait connaître par son travail sur les ondes radiophoniques.<br>Sa célèbre adaptation de "La Guerre des Mondes" en 1938 a démontré le pouvoir immense de ce médium, créant une panique nationale lorsque les auditeurs ont cru à une véritable invasion extraterrestre.<br>Cette émission, captée par les antennes à travers le pays, a révélé la capacité de la radio à façonner l'imaginaire collectif.</p>
+                <img class="article__img" src="../assets/img/img/laguerredesmondes.avif" alt="image du livre de l'adaptation radio de la guerre des mondes">
+                <p class="article__txt-legende">Livre d’où vient son adaptation à la radio</p>
+            </section>
+
+            <section class="article">
+                <h3 class="article__sub-title">Son histoire avec la radio</h3>
+                <p  class="article__txt">Welles a ensuite transposé son génie créatif au cinéma. Son premier long-métrage, "Citizen Kane" (1941), a révolutionné l'art cinématographique. Utilisant des techniques innovantes de montage et de narration, Orson Welles a créé un style unique qui a influencé des générations de cinéastes.<br><br>Le film explore la vie d'un magnat de la presse, rappelant le pouvoir des médias que Welles avait déjà exploré à la radio.<br>Malgré le succès critique de "Citizen Kane", Welles a souvent lutté contre le système hollywoodien. Des films comme "La Splendeur des Amberson" (1942) et "La Dame de Shanghai" (1947) ont été victimes d'interférences des studios, rappelant les tensions entre créativité et contrôle commercial que Welles avait connues dans le monde de la radio.</p>
+                <div class="carroussel" role="region" aria-live="polite">
+                    <img 
+                    class="article__img carroussel__img" 
+                    src="../assets/img/img/ladamedeshanghaiaffiche1.avif" 
+                    alt="affiche du film la dame de shanghai"
+                    id="1">
+                    <img 
+                    class="article__img carroussel__img" 
+                    src="../assets/img/img/citizenkane.avif" 
+                    alt="affiche du film citizen kane"
+                    id="2">
+                    <img 
+                    class="article__img carroussel__img" 
+                    src="../assets/img/img/lasplendeurdesamberson1.avif" 
+                    alt="affiche du film la splendeur des amberson"
+                    id="3">
+                </div>
+                <a href="https://www.allocine.fr/personne/fichepersonne-989/filmographie/">Ses différents films</a>
+            </section>
+
+            <section class="article">
+                <h3>La radio : de Welles à Aisberg, un média captivant et accessible</h3>
+                <p>La découverte de vieux postes radio nous rappelle l'époque où Welles captivait les auditeurs avec ses émissions innovantes.<br>Parallèlement, son influence se retrouve également dans des ouvrages comme "La radio mais c'est très simple" d'Eugène Aisberg, qui démystifie les aspects techniques de ce médium.<br>Bien que le contexte soit différent, les deux œuvres soulignent l'importance de comprendre et maîtriser la radio, un outil puissant pour communiquer des idées.</p>
+                <a href="./article_livreFR.html">En savoir plus sur "La radio?... Mais c'est très simple"</a>
+            </section>  
+        </main>          
+
+
+        <footer class="footer">
+            <a class="footer__logo-link" href="/">
+                <img
+                    class="footer__logo"
+                    src="./assets/img/logo/logosite.avif"
+                    alt="Icone d'Aft'Hertz"
+                />
+                </a>
+    
+            <div class="footer__lang">
+                <ul class="footer__nom">
+                    <li class="footer__nom__item">
+                        <p class="footer__nom__item-txt">DARLE-FELBACQ Paul</p>
+                        <p class="footer__nom__item-txt">TD A-2</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer__links">
+                <ul class="footer__links__list">
+                    <li class="footer__links__list__item">
+                        <a class="footer__links__list-txt" href="contactFR.html">Contact</a>
+                        <a class="footer__links__list-txt" href="galerieFR.html">Galerie</a>
+                        <a class="footer__links__list-txt" href="aproposFR.html">À propos</a>
+                        <a class="footer__links__list-txt" href="projetsFR.html">Autres projets</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer__social">
+                <a href="mailto:darlefelbacqpaul@gmail.com" class="footer__social__link"><img src="./assets/img/icons/iconMail.avif" alt="icone de mail"></a>
+                <a href="https://linkedin.com" class="footer__social__link"><img src="./assets/img/icons/iconLinkedin.avif" alt="icone de linkedin"></a>
+                <a href="https://blogdummi.fr/" class="footer__social__link"> <img src="./assets/img/icons/iconMMImontbeliardblanc1.avif" alt="icon logo MMI montbéliard"></a>
+            </div>
+            <p class="footer__txt-annexe">projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département MMi de <a href="https://blogdummi.fr/">montbéliard</a></p>
+        </footer>
+    </body>
+</html>

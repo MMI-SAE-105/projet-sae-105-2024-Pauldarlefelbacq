@@ -61,57 +61,51 @@
         
         <main>
             <div class="hero__art">
-                <h1 class="hero__art-title">Autres projets</h1>
-                <h2 class="hero__art-sub-title">Voici la section contenant les autres projets réalisés</h2>
+                <h1 class="hero__art-title">Contact</h1>
+                <h2 class="hero__art-sub-title">N’hésitez pas à remplir le formulaire ci-dessous pour nous contacter</h2>
             </div>
 
-            <section class="projets">
-                <ul class="projets__list">
-                    <li class="projets__item">
-                        <p class="projets__txt">BOBEL Banjamin</p>
-                        <a class="projets__link" href="">Radium Fall</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">ADDARIO Maëlie</p>
-                        <a class="projets__link" href="">EcoDenim</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">HALEPOVIC Nedim</p>
-                        <a class="projets__link" href="">LaRevolution</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">BREUIL Kilian</p>
-                        <a class="projets__link" href="">Game Time</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">CHOULET Adrien</p>
-                        <a class="projets__link" href="">DroneXplorer</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">BAUDRY Léo</p>
-                        <a class="projets__link" href="">SilentAge</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">FEUVRIER Axel</p>
-                        <a class="projets__link" href="">Exo Tech</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">COUTURIER Margot</p>
-                        <a class="projets__link" href="">Train MagLev</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">CHEVALLOT Loréna</p>
-                        <a class="projets__link" href="">Clavex</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">SESTER Guillaume</p>
-                        <a class="projets__link" href="">HyperVision</a>
-                    </li>
-                    <li class="projets__item">
-                        <p class="projets__txt">DESRACHES Mathis</p>
-                        <a class="projets__link" href="">ArchaDrive</a>
-                    </li>
-                </ul>
+            <section class="contact">
+                <form class="form" action="#" aria-labelledby="form-title">
+                    <h3 id="form-title" class="visuallyhidden">Formulaire de contact</h3>
+                    <div>
+                      <label class="form__label" for="nom">Nom</label>
+                      <input
+                        class="form__field"
+                        type="text"
+                        name="nom"
+                        id="nom"
+                      />
+                    </div>
+                    <div>
+                      <label class="form__label" for="mail">Prénom</label>
+                      <input
+                        class="form__field"
+                        type="text"
+                        name="prénom"
+                        id="mail"
+                      />
+                    </div>
+                    <div>
+                      <label class="form__label" for="sujet">Adresse mail</label>
+                      <input
+                        class="form__field"
+                        type="text"
+                        name="mail"
+                        id="sujet"
+                      />
+                    </div>
+                    <div>
+                        <label class="form__label" for="message">Message</label>
+                        <textarea
+                          class="form__field"
+                          id="message"
+                          name="message"
+                          rows="6"
+                        ></textarea>
+                      </div>
+                    <button class="contact__form--btn button__normal" type="submit">Envoyer <img src="../assets/img/icons/iconFleches.avif" alt="icone de flèches"></button>
+                </form>
             </section>
         </main>
 

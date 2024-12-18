@@ -1,0 +1,24 @@
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+
+.article__sub-title{
+    font-family: var(--font-montserrat);
+    color: var(--blanc);
+    font-size: var(--txt-M);
+    font-weight: 500;
+    width: 75%;
+    height: 76px;
+    text-align: center;
+    background-color: var(--bleu-marine);
+    margin-top: -8%;
+}
+
+.article__txt{
+    font-size: var(--txt-M);
+    width: 85%;
+    text-align: center;
+    background-color: var(--beige);
+}

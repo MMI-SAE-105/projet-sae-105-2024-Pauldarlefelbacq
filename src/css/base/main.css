@@ -6,7 +6,6 @@
 
 body{
     background-color: var(--blanc);
-    margin: auto 13px auto 13px;
     font-size: var(--txt-M);
     color: var(--gris);
     font-family: var(--font-source);
@@ -31,3 +30,6 @@ h3{
     font-size: var(--txt-L);
 }
 
+.list-unstyled{
+    list-style: none;
+}   

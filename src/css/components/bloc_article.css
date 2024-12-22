@@ -19,6 +19,5 @@
 .article__txt{
     font-size: var(--txt-M);
     width: 85%;
-    text-align: center;
     background-color: var(--beige);
 }

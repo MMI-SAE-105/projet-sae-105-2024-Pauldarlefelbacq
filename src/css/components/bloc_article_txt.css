@@ -1,0 +1,53 @@
+.article{
+    margin-bottom: 100px;
+}
+
+.hero__art-img{
+    z-index: -1;
+}
+
+.article__sub-title{
+    margin-left: 22px;
+    margin-inline-end: 47px;
+    border-top: 2px solid var(--bleu-marine);
+}
+
+.article__txt{
+    margin: 24px 16px 24px 10px;
+}
+
+.article__txt-legende{
+    margin: -5px 10px 0 160px;
+    font-family: var(--font-source);
+    font-size: var(--txt-S);
+    justify-content: right;
+    display: grid;
+;
+}
+
+.article__link{
+    display: grid;
+    color: var(--bleu-marine);
+    justify-items: center;
+}
+
+
+.hero__art-bg{
+    background-color: var(--bleu-marine);
+    margin: -10px 0 0 0;
+}
+
+.hero__art-title{
+    margin: 22px 21px 21px 22px;
+    text-align: center;
+}
+
+.hero__art-sub-title{
+    margin: -15px 22px 0 21px;
+    background-color: var(--beige);
+}
+
+.hero__art-txt-ex{
+    font-family: var(--montserrat);
+    margin: 22px 21px 31px 5px;
+}

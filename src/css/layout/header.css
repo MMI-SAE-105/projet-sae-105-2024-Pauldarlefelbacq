@@ -92,10 +92,12 @@
     border-bottom: 2px solid var(--bleu-marine);
 }
 
-.baton{
-    border-right: 2px solid var(--bleu-marine);
+.batonfr[aria-hidden="true"],
+.batonen[aria-hidden="true"] {
+    border-right: 2px solid var(--beige);
 }
 
-.baton[aria-hidden="true"] {
-    border-right: 2px solid var(--beige);
+.batonfr[aria-hidden="false"],
+.batonen[aria-hidden="false"] {
+    border-right: 2px solid var(--bleu-marine);
 }

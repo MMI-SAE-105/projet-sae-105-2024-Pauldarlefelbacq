@@ -1,0 +1,29 @@
+.form__field{
+    display: flex;
+    border: 4px solid var(--beige);
+    margin: 0 0 50px 30px;
+    width: 333px;
+    min-height: 50px;
+}
+
+.form__label{
+    font-family: var(--font-montserrat);
+    font-size: var(--txt-M);
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.contact__form--btn{
+    font-family: var(--font-exo);
+    font-size: var(--txt-L);
+    font-weight: bold;
+    border: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: baseline;
+    margin-left: 35%;
+}
+
+.contact__form--btn-fleches{
+    margin-left: 15px;
+}

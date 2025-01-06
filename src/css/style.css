@@ -20,4 +20,6 @@
 @import "components/contact.css";
 @import "components/menu.css";
 @import "components/bloc_article.css";
-@import "components/bloc_article_txt.css"
+@import "components/bloc_article_txt.css";
+@import "components/bloc_contact.css";
+@import "components/bloc_liste_films.css";

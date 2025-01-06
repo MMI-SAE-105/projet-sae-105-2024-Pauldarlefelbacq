@@ -1,0 +1,10 @@
+.liste__films__item{
+    margin-bottom: 100px;
+}
+
+.liste__fimls__txt{
+    font-family: var(--font-exo);
+    font-size: var(--txt-L);
+    font-weight: 700;
+    margin-left: 36px;
+}

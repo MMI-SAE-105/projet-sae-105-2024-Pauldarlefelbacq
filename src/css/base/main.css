@@ -6,7 +6,7 @@
 
 body{
     background-color: var(--blanc);
-    font-size: var(--txt-M);
+    font-size: var(--txt-S);
     color: var(--gris);
     font-family: var(--font-source);
 }

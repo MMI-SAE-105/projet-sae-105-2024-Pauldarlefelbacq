@@ -19,7 +19,7 @@
 .article__txt-legende{
     margin: -5px 10px 0 160px;
     font-family: var(--font-source);
-    font-size: var(--txt-S);
+    font-size: var(--txt-XS);
     justify-content: right;
     display: grid;
 ;
@@ -42,12 +42,13 @@
     text-align: center;
 }
 
-.hero__art-sub-title{
+/* .hero__art-sub-title{
     margin: -15px 22px 0 21px;
     background-color: var(--beige);
-}
+} */
 
 .hero__art-txt-ex{
-    font-family: var(--montserrat);
+    font-family: var(--font-montserrat);
+    font-size: var(--txt-M);
     margin: 22px 21px 31px 5px;
 }

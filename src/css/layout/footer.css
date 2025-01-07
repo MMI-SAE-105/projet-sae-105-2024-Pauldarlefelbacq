@@ -61,7 +61,7 @@
 .footer__txt-annexe{
     justify-content: center;
     margin-left: 30px;
-    font-size: var(--txt-M);
+    font-size: var(--txt-S);
 }
 
 .footer__txt-annexe a{

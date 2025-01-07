@@ -9,8 +9,9 @@
     /*taille de la police*/
     --txt-XL: 2.125rem;
     --txt-L: 1.5rem;
-    --txt-M: 0.938rem;
-    --txt-S: 0.688rem;
+    --txt-M: 1.125rem;
+    --txt-S: 0.938rem;
+    --txt-XS: 0.688rem;
 
     /*typos*/
     --font-exo: 'Exo 2', sans-serif;

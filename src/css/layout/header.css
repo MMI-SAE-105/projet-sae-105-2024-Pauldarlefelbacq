@@ -43,7 +43,7 @@
     margin-bottom: 5px;;
     text-decoration: none;
     color: var(--gris);
-    font-size: var(--txt-M);
+    font-size: var(--txt-S);
 }
 
 .fr{
@@ -78,14 +78,6 @@
 .header__lang{
     display: flex;
     flex-direction: column;
-}
-
-.header__lang__link{
-    margin-right: 5px;
-    margin-bottom: 5px;;
-    text-decoration: none;
-    color: var(--gris);
-    font-size: var(--txt-M);
 }
 
 .fr{

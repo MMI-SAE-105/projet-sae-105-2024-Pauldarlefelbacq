@@ -11,10 +11,23 @@
     padding-top: 18px;
 }
 
-.hero__subtitle{
+.hero__carre__beige{
     margin-top: 25%;
     padding: 14px;
     width: 85%;
     text-align: center;
+    align-items: center;
     background-color: var(--beige);
+}
+
+.hero__carre__beige-arrondi{
+    display: flex;
+    margin-top: -5%;
+    margin-left: 10px;
+    padding: 14px;
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    background-color: var(--beige);
+    border-radius: 5%;
 }

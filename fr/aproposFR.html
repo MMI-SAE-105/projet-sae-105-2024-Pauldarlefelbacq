@@ -10,55 +10,61 @@
         <script type="module" src="../src/js/script.js"></script>
     </head>
     <body>
-        <header class="header">
-            <a class="header__logo-link" href="/">
-                <img
-                  class="header__logo"
-                  src="./assets/img/logo/logosite.avif"
-                  alt="Icone d'Aft'Hertz"
-                />
-              </a>
-            <div class="header__lang">
-                <a href="/" class="header__lang__link">FR</a>
-                <a href="#" class="header__lang__link">EN</a>
-            </div>
-            <h2 class="header__title">Aft'Hertz</h2>
+      <header class="header">
+        <a class="header__logo-link" href="/">
+            <img
+              class="header__logo"
+              src="../assets/img/logos/logosite.avif"
+              alt="Icone d'Aft'Hertz"
+            />
+          </a>
+        <div class="header__lang">
+          <div class="baton" aria-hidden="false">
+              <a href="/" class="header__lang__link fr">FR</a>
+          </div>
+          <div class="baton" aria-hidden="true">
+              <a href="../en/index.html" class="header__lang__link eng">ENG</a>
+          </div>
+        </div>
+        <h2 class="header__title">Aft'Hertz</h2>
 
-            <button
-          class="header__menu-btn menu-btn"
-          aria-label="menu"
-          aria-expanded="false"
-          aria-controls="mainNav"
-        >
-          <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
+        <button
+      class="header__menu-btn menu-btn"
+      aria-label="menu"
+      aria-expanded="false"
+      aria-controls="mainNav"
+      >
+      <span class="menu-btn__bar" aria-hidden="true"></span>
+      </button>
 
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-            <ul class="header__menu__list list-unstyled">
-              <li class="header__menu__item">
-                <a class="header__menu__titre underline" href="/">Accueil</a>
-              </li>
-              <li class="header__menu__item">
-                <a class="header__menu__link" href="/fr/article_radioFR.html">Découverte de la radio</a>
-              </li>
-              <li class="header__menu__item">
-                <a class="header__menu__link" href="/fr/article_filmFR.html">Good Morning Vietnam</a>
-              </li>
-              <li class="header__menu__item">
-                <a class="header__menu__link" href="/fr/article_realFR.html">Orson Welles</a>
-              </li>
-              <li class="header__menu__item">
-                <a class="header__menu__link" href="/fr/article_livreFR.html">La radio ? Mais c'est très simple</a>
-              </li>
-              <li class="header__menu__item">
-                <a class="header__menu__link" href="/article_musiqueFR.html">Radio Ga Ga</a>
-              </li>
-              <li class="header__menu__item">
-                <a class="header__menu__link" href="/fr/friseFR.html">Évolution de la radio</a>
-              </li>
-            </ul>
-        </nav>
-      </header>
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+      <ul class="header__menu__list list-unstyled">
+        <div class="beige">
+          <li class="header__menu__item">
+            <a class="header__menu__titre underline" href="/">Accueil</a>
+          </li>
+        </div>
+        <li class="header__menu__item">
+          <a class="header__menu__link" href="./article_radioFR.html">Découverte de la radio</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="header__menu__link" href="./article_filmFR.html">Good Morning Vietnam</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="header__menu__link" href="./article_realFR.html">Orson Welles</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="header__menu__link" href="./article_livreFR.html">La radio ? Mais c'est très simple</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="header__menu__link" href="./article_musiqueFR.html">Radio Ga Ga</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="header__menu__link" href="./friseFR.html">Évolution de la radio</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
         
         <main>

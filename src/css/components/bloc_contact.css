@@ -8,14 +8,14 @@
 
 .form__label{
     font-family: var(--font-montserrat);
-    font-size: var(--txt-M);
+    font-size: var(--txt-S);
     margin-left: 35px;
     margin-bottom: 5px;
 }
 
 .contact__form--btn{
     font-family: var(--font-exo);
-    font-size: var(--txt-L);
+    font-size: var(--txt-M);
     font-weight: bold;
     border: 0px;
     background-color: transparent;

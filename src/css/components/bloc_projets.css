@@ -1,0 +1,22 @@
+.projets{
+    display: flex;
+    font-family: var(--font-exo);
+    font-size: var(--txt-L);
+    font-weight: 700;
+    justify-content: center;
+}
+
+.projets__list{
+    list-style: none;
+    text-align: center;
+}
+
+.projets__item{
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 5px solid var(--violet);
+}
+
+.projets__link{
+    color: var(--bleu-marine);
+}

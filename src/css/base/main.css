@@ -9,6 +9,7 @@ body{
     font-size: var(--txt-S);
     color: var(--gris);
     font-family: var(--font-source);
+    z-index: -2;
 }
 
 h1{

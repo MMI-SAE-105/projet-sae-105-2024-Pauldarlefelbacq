@@ -69,12 +69,16 @@
         
         <main>
             <div class="hero__art">
+              <div class="bleu"></div>
                 <h1 class="hero__art-title">“Radio Ga Ga”<br>L’importance de la radio à l’époque</h1>
                 <img 
+                class="hero__art-img"
                 src="../assets/img/img/radiogaga.avif" 
                 alt="image de la cover de radio Ga Ga de Queen" 
                 loading="lazy">
-                <h2 class="hero__art-sub-title">"Radio Ga Ga" de Queen : Un Hymne à une Technologie Révolue</h2>
+                <div class="hero__carre__beige-arrondi">
+                  <h2 class="hero__art-sub-title">"Radio Ga Ga" de Queen : Un Hymne à une Technologie Révolue</h2>
+                </div>
                 <p class="hero__art-txt-ex">Dans l’histoire de la musique ancienne, certaines chansons résonnent encore à travers les âges, même si leur sens s’échappe parfois à nos esprits modernes. "Radio Ga Ga", de Queen, en est un exemple frappant.</p>
             </div>
 
@@ -111,25 +115,41 @@
             <section class="article">
                 <h3 class="article__sub-title">Queen, Nostalgie techno et tubes éternels</h3>
                 <p class="article__txt">"Radio Ga Ga" évoquait une époque où la radio rythmait les trajets, avec ses stations et ses fréquences qu'on devait capter manuellement.<br>Aujourd'hui, ça nous paraît presque absurde face à nos IA hyper-connectées.<br><br>Ce lien entre passé et technologie revient aussi dans d'autres tubes de Queen comme "The Show Must Go On" et "I Want to Break Free".<br><br>Ces morceaux, tout aussi puissants, soulignent l'éternel tiraillement entre innovation et nostalgie, un thème qui résonne encore, même à travers les siècles.</p>
-                <div>
-                    <img 
-                    class="article__img carroussel__img" 
-                    src="../assets/img/img/radiogagaqueencarous1.avif" 
-                    alt="photo du groupe Queen"
-                    loading="lazy"
-                    id="1">
-                    <img 
-                    class="article__img carroussel__img" 
-                    src="../assets/img/img/iwanttobreakfreecarous1.avif" 
-                    alt="photo du groupe Queen"
-                    loading="lazy"
-                    id="2">
-                    <img 
-                    class="article__img carroussel__img" 
-                    src="../assets/img/img/showmustgooncarous1.avif" 
-                    alt="photo du groupe Queen"
-                    loading="lazy"
-                    id="3">
+                <div class="carroussel">
+                  <div class="carroussel__container" role="region" aria-live="polite">
+                    <div class="carroussel__item">
+                      <img 
+                      class="article__img carroussel__img" 
+                      src="../assets/img/img/radiogagaqueencarous1.avif" 
+                      alt="photo du groupe Queen"
+                      loading="lazy"
+                      id="1">
+                    </div>
+                      <div class="carroussel__item">
+                      <img 
+                      class="article__img carroussel__img" 
+                      src="../assets/img/img/iwanttobreakfreecarous1.avif" 
+                      alt="photo du groupe Queen"
+                      loading="lazy"
+                      id="2">
+                      </div>
+                      <div class="carroussel__item">
+                      <img 
+                      class="article__img carroussel__img" 
+                      src="../assets/img/img/showmustgooncarous1.avif" 
+                      alt="photo du groupe Queen"
+                      loading="lazy"
+                      id="3">
+                    </div>
+                  </div>
+                  <div class="carousel__controls">
+                    <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                      <img src="../assets/img/icons/chevron-left.png" alt="fleche gauche" />
+                    </button>
+                    <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                      <img src="../assets/img/icons/chevron-right.png" alt="fleche droite" />
+                    </button>
+                  </div>
                 </div>
                 <a class="article__link" href="https://www.senscritique.com/liste/les_albums_studio_de_queen/2846195">Voir leur discographie</a>
             </section>

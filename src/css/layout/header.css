@@ -58,3 +58,8 @@
 .batonen[aria-hidden="true"] {
     border-right: 2px solid var(--beige);
 }
+
+.batonfr[aria-hidden="false"],
+.batonen[aria-hidden="false"] {
+    border-right: 2px solid var(--bleu-marine);
+}

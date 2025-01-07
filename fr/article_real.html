@@ -19,10 +19,10 @@
             />
           </a>
         <div class="header__lang">
-          <div class="baton" aria-hidden="false">
+          <div class="baton batonfr" aria-hidden="false">
               <a href="/" class="header__lang__link fr">FR</a>
           </div>
-          <div class="baton" aria-hidden="true">
+          <div class="baton batonen" aria-hidden="true">
               <a href="../en/index.html" class="header__lang__link eng">ENG</a>
           </div>
         </div>
@@ -69,8 +69,10 @@
         
         <main>
             <div class="hero__art">
+              <div class="bleu"></div>
                 <h1 class="hero__art-title">Orson Welles<br>Un réalisateur ayant un lien étroit avec la radio.</h1>
                 <img 
+                class="hero__art-img"
                 src="../assets/img/img/Orson_welles.avif" 
                 alt="image du réalisateur Orson Welles" 
                 loading="lazy">
@@ -99,22 +101,38 @@
             <section class="article">
                 <h3 class="article__sub-title">Son histoire avec la radio</h3>
                 <p  class="article__txt">Welles a ensuite transposé son génie créatif au cinéma. Son premier long-métrage, "Citizen Kane" (1941), a révolutionné l'art cinématographique. Utilisant des techniques innovantes de montage et de narration, Orson Welles a créé un style unique qui a influencé des générations de cinéastes.<br><br>Le film explore la vie d'un magnat de la presse, rappelant le pouvoir des médias que Welles avait déjà exploré à la radio.<br>Malgré le succès critique de "Citizen Kane", Welles a souvent lutté contre le système hollywoodien. Des films comme "La Splendeur des Amberson" (1942) et "La Dame de Shanghai" (1947) ont été victimes d'interférences des studios, rappelant les tensions entre créativité et contrôle commercial que Welles avait connues dans le monde de la radio.</p>
-                <div class="carroussel" role="region" aria-live="polite">
-                    <img 
-                    class="article__img carroussel__img" 
-                    src="../assets/img/img/ladamedeshanghaiaffiche1.avif" 
-                    alt="affiche du film la dame de shanghai"
-                    id="1">
-                    <img 
-                    class="article__img carroussel__img" 
-                    src="../assets/img/img/citizenkane.avif" 
-                    alt="affiche du film citizen kane"
-                    id="2">
-                    <img 
-                    class="article__img carroussel__img" 
-                    src="../assets/img/img/lasplendeurdesamberson1.avif" 
-                    alt="affiche du film la splendeur des amberson"
-                    id="3">
+                <div class="carroussel">
+                  <div class="carroussel__container" role="region" aria-live="polite">
+                    <div class="carroussel__item">
+                      <img 
+                      class="article__img carroussel__img" 
+                      src="../assets/img/img/ladamedeshanghaiaffiche1.avif" 
+                      alt="affiche du film la dame de shanghai"
+                      id="1">
+                    </div>
+                    <div class="carroussel__item">
+                      <img 
+                      class="article__img carroussel__img" 
+                      src="../assets/img/img/citizenkane.avif" 
+                      alt="affiche du film citizen kane"
+                      id="2">
+                    </div>
+                    <div class="carroussel__item">
+                      <img 
+                      class="article__img carroussel__img" 
+                      src="../assets/img/img/lasplendeurdesamberson1.avif" 
+                      alt="affiche du film la splendeur des amberson"
+                      id="3">
+                    </div>
+                  </div>
+                  <div class="carousel__controls">
+                    <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                      <img src="../assets/img/icons/chevron-left.png" alt="fleche gauche" />
+                    </button>
+                    <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                      <img src="../assets/img/icons/chevron-right.png" alt="fleche droite" />
+                    </button>
+                  </div>
                 </div>
                 <a class="article__link" href="https://www.allocine.fr/personne/fichepersonne-989/filmographie/">Ses différents films</a>
             </section>

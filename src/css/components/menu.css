@@ -4,12 +4,16 @@
     position: fixed;
     display: flex;
     inset: 0;
-    z-index: 1;
+    z-index:9;
     color: var(--blanc);
     flex-direction: column;
     justify-content: space-between;
     padding: 120px 40px 40px;
     transition: all 0.3s ease-in-out;
+}
+
+nav{
+    z-index:9;
 }
 
 .header__title{
@@ -40,7 +44,7 @@
 }
 
 .header__menu__link{
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
     color: var(--blanc);
     font-size: var(--txt-L);
@@ -48,7 +52,7 @@
 
 .header__menu__item{
     margin-bottom: 40px;
-    margin-left: -3%;
+    margin-left: -8%;
     margin-right: -50%;
 }
 

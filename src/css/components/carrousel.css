@@ -1,0 +1,53 @@
+.carroussel__container {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    margin-left: -0px;
+    scroll-snap-type: x mandatory;
+}
+
+.carroussel__item {
+    flex: 1 0 100%;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carroussel__item img {
+    display: block;
+    width: 80%;
+}
+
+.carroussel__img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.carousel__controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+.carousel__button {
+    background: none;
+    width: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    top: 50%;
+    padding: 10px;
+}
+
+.carousel__button--prev {
+    margin-left: 50px;
+}
+
+.carousel__button--next {
+    margin-right: 50px;
+}

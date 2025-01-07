@@ -2,10 +2,6 @@
     margin-bottom: 100px;
 }
 
-.hero__art-img{
-    z-index: -1;
-}
-
 .article__sub-title{
     margin-left: 22px;
     margin-inline-end: 47px;
@@ -31,24 +27,3 @@
     justify-items: center;
 }
 
-
-.hero__art-bg{
-    background-color: var(--bleu-marine);
-    margin: -10px 0 0 0;
-}
-
-.hero__art-title{
-    margin: 22px 21px 21px 22px;
-    text-align: center;
-}
-
-/* .hero__art-sub-title{
-    margin: -15px 22px 0 21px;
-    background-color: var(--beige);
-} */
-
-.hero__art-txt-ex{
-    font-family: var(--font-montserrat);
-    font-size: var(--txt-M);
-    margin: 22px 21px 31px 5px;
-}

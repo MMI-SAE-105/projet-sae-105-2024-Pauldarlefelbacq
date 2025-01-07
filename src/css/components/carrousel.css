@@ -9,6 +9,7 @@
 .carroussel__item {
     flex: 1 0 100%;
     scroll-snap-align: center;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;

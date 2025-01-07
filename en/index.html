@@ -10,58 +10,163 @@
         <script type="module" src="../src/js/script.js"></script>
     </head>
     <body>
-        <header class="header">
-            <a class="header__logo-link" href="/en/">
-                <img
-                  class="header__logo"
-                  src="../assets/img/logos/logosite.avif"
-                  alt="Icone d'Aft'Hertz"
-                />
-              </a>
-            <div class="header__lang">
-              <div class="batonfr">
-                  <a href="../fr/index.html" class="header__lang__link fr">FR</a>
-              </div>
-              <div class="batonen">
-                  <a href="/en/index.html" class="header__lang__link eng">ENG</a>
-              </div>
+      <header class="header">
+          <a class="header__logo-link" href="/en/">
+              <img
+                class="header__logo"
+                src="../assets/img/logos/logosite.avif"
+                alt="Icone d'Aft'Hertz"
+              />
+            </a>
+          <div class="header__lang">
+            <div class="batonfr">
+                <a href="../fr/index.html" class="header__lang__link fr">FR</a>
             </div>
-            <h2 class="header__title">Aft'Hertz</h2>
-
-            <button
-          class="header__menu-btn menu-btn"
-          aria-label="menu"
-          aria-expanded="false"
-          aria-controls="mainNav"
-          >
-          <span class="menu-btn__bar" aria-hidden="true"></span>
-          </button>
-
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-          <ul class="header__menu__list list-unstyled">
-            <div class="beige">
-              <li class="header__menu__item">
-                <a class="header__menu__titre underline" href="/">Accueil</a>
-              </li>
+            <div class="batonen">
+                <a href="/en/index.html" class="header__lang__link eng">ENG</a>
             </div>
+          </div>
+          <h2 class="header__title">Aft'Hertz</h2>
+
+          <button
+        class="header__menu-btn menu-btn"
+        aria-label="menu"
+        aria-expanded="false"
+        aria-controls="mainNav"
+        >
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="header__menu__list list-unstyled">
+          <div class="beige">
             <li class="header__menu__item">
-              <a class="header__menu__link" href="./fr/article_radio.html">Découverte de la radio</a>
+              <a class="header__menu__titre underline" href="./index.html">Home</a>
             </li>
-            <li class="header__menu__item">
-              <a class="header__menu__link" href="./fr/article_film.html">Good Morning Vietnam</a>
-            </li>
-            <li class="header__menu__item">
-              <a class="header__menu__link" href="./fr/article_real.html">Orson Welles</a>
-            </li>
-            <li class="header__menu__item">
-              <a class="header__menu__link" href="./fr/article_livre.html">La radio ? Mais c'est très simple</a>
-            </li>
-            <li class="header__menu__item">
-              <a class="header__menu__link" href="./fr/article_musique.html">Radio Ga Ga</a>
-            </li>
-            <li class="header__menu__item">
-              <a class="header__menu__link" href="./fr/frise.html">Évolution de la radio</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+          </div>
+          <li class="header__menu__item">
+            <a class="header__menu__link" href="./article_radio.html">Discovery of the radio</a>
+          </li>
+          <li class="header__menu__item">
+            <a class="header__menu__link" href="./article_film.html">Good Morning Vietnam</a>
+          </li>
+          <li class="header__menu__item">
+            <a class="header__menu__link" href="./article_real.html">Orson Welles</a>
+          </li>
+          <li class="header__menu__item">
+            <a class="header__menu__link" href="./article_livre.html">"La radio ? Mais c'est très simple"</a>
+          </li>
+          <li class="header__menu__item">
+            <a class="header__menu__link" href="./article_musique.html">Radio Ga Ga</a>
+          </li>
+          <li class="header__menu__item">
+            <a class="header__menu__link" href="./frise.html">Radio's evolution</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+          <h1 class="hero__title">Aft'Hertz</h1>
+          <img src="../assets/img/logos/logosite.avif" alt="logo Aft'Hertz">
+          <div class = "hero__carre__beige">
+            <h2 class="hero__subtitle">Folowing the discovery of an old radio, we want to explore this theme in a larger and more passionate way.</h2>
+          </div>
+      </div>
+
+      <section class="bloc__article">
+        <img class="bloc__article__img" src="../assets/img/img/vieilleradioIA.avif" alt="image d'une vieille radio">
+        <div class="bloc__article__bleu">
+          <h3 class="bloc__article__sub-title">Discovery of a device coming straight from another time,<br>the radio.</h3>
+        </div>
+        <div class="bloc__article__beige">
+          <p class="bloc__article__txt">Archeologists discovered an antic radio post, symbol of a bygone era, putting in light technologies and communication’s evolution.</p>
+        </div>
+        <a class="bloc__article__link" href="./article_radio.html">Read article<img class="bloc__article__img-icon" src="../assets/img/icons/iconFleches.avif" alt="Arrow's icon"></a>
+      </section>
+      
+      <section class="bloc__article">
+          <img class="bloc__article__img" src="../assets/img/img/goodmorning-vietnam.avif" alt="image du film good morning vietnam">
+          <div class="bloc__article__bleu">
+            <h3 class="bloc__article__sub-title">“Good Morning Vietnam” A movie which is about the political use of the radio.</h3>
+          </div>
+          <div class="bloc__article__beige">
+            <p class="bloc__article__txt">Good Morning, Vietnam shows how radio was a necessary shelter during war time, informing and entertaining despite the censoring.</p>
+          </div>
+          <a class="bloc__article__link" href="./article_film.html">Read article<img class="bloc__article__img-icon" src="../assets/img/icons/iconFleches.avif" alt="Arrow's icon"></a>
+      </section>
+
+      <section class="bloc__article">
+          <img class="bloc__article__img" src="../assets/img/img/Orson_welles.avif" alt="image du réalisateur Orson Welles">
+          <div class="bloc__article__bleu">
+            <h3 class="bloc__article__sub-title">Orson Welles A producer who have a close link with the radio.</h3>
+          </div>
+          <div class="bloc__article__beige">
+            <p class="bloc__article__txt">Orson Welles, famous producer for his radio adaptation of “The war of the worlds” in 1938, he has influenced cinema and the culture.</p>
+          </div>
+          <a class="bloc__article__link" href="./article_real.html">Read article<img class="bloc__article__img-icon" src="../assets/img/icons/iconFleches.avif" alt="Arrow's icon"></a>
+      </section>
+
+      <section class="bloc__article">
+          <img class="bloc__article__img" src="../assets/img/img/la-radio-mais-c-est-tres-simple-.avif" alt="image du livre la radio mais c'est très simple">
+          <div class="bloc__article__bleu">
+            <h3 class="bloc__article__sub-title">“La radio? mais c’est très simple” A vulgarisation’s classic about the radio</h3>
+          </div>
+          <div class="bloc__article__beige">
+            <p class="bloc__article__txt">Eugène Aisberg, in ”La radio ? Mais c'est très simple !”explain with some humor how the radio is working thanks to educationnal dialogues.</p>
+          </div>
+          <a class="bloc__article__link" href="./article_livre.html">Read article<img class="bloc__article__img-icon" src="../assets/img/icons/iconFleches.avif" alt="Arrow's icon"></a>
+      </section>
+      
+      <section class="bloc__article">
+          <img class="bloc__article__img" src="../assets/img/img/radiogaga.avif" alt="image de la musique radio gaga">
+          <div class="bloc__article__bleu">
+            <h3 class="bloc__article__sub-title">“Radio Ga Ga” A classic from Queen about the importance of radio long ago.</h3>
+          </div>
+          <div class="bloc__article__beige">
+            <p class="bloc__article__txt">"Radio Ga Ga" from Queen, anthem to the radio, predict its downfall against TV. Ironically the song is still a symbol in the numerical era.</p>
+          </div>
+          <a class="bloc__article__link" href="./article_musique.html">Read article<img class="bloc__article__img-icon" src="../assets/img/icons/iconFleches.avif" alt="Arrow's icon"></a>
+      </section>
+    </main>
+
+    
+    <footer class="footer">
+        <a class="footer__logo-link" href="/">
+            <img
+              class="footer__logo"
+              src="../assets/img/logos/logositeBlanc.avif"
+              alt="Icone d'Aft'Hertz"
+            />
+          </a>
+
+        <div class="footer__lang">
+            <ul class="footer__nom">
+                <li class="footer__nom__item">
+                    <p class="footer__nom__item-txt">DARLE-FELBACQ Paul</p>
+                    <p class="footer__nom__item-txt">TD A-2</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__links">
+            <ul class="footer__links__list">
+                <li class="footer__links__list__item">
+                    <a class="footer__links__list-txt" href="contact.html">Contact</a>
+                    <a class="footer__links__list-txt" href="galerie.html">Gallery</a>
+                    <a class="footer__links__list-txt" href="apropos.html">About</a>
+                    <a class="footer__links__list-txt" href="projets.html">Other projets</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__social">
+            <a href="mailto:darlefelbacqpaul@gmail.com" class="footer__social__link"><img src="../assets/img/icons/iconMail.avif" alt="mail icon"></a>
+            <a href="https://linkedin.com" class="footer__social__link"><img src="../assets/img/icons/iconLinkedin.avif" alt="linkedin's icon"></a>
+            <a href="https://blogdummi.fr/" class="footer__social__link"> <img src="../assets/img/icons/iconMMImontbeliardblanc1.avif" alt="MMI montbéliard's logo's icon"></a>
+        </div>
+        <p class="footer__txt-annexe">Project made in 2024 as an educationnal exercise at the MMI department of<a href="https://blogdummi.fr/">Montbéliard</a></p>
+    </footer>
+  </body>
+</html>

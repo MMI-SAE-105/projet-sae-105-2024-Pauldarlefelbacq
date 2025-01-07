@@ -20,6 +20,7 @@ nav{
     font-size: var(--txt-L);
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 
 .menu[aria-hidden="true"] {
@@ -47,7 +48,7 @@ nav{
     font-weight: 600;
     text-decoration: none;
     color: var(--blanc);
-    font-size: var(--txt-L);
+    font-size: var(--txt-M);
 }
 
 .header__menu__item{
@@ -58,11 +59,12 @@ nav{
 
 .menu-btn {
     position: relative;
-    width: 75px;
     height: 75px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 75px;
 }
 
 .menu-btn__bar,
@@ -72,7 +74,7 @@ nav{
     background: var(--gris);
     color: var(--noir);
     height: 2px;
-    width: 50px;
+    width: 40px;
     position: absolute;
     border-radius: 2px;
     left: 0;

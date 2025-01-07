@@ -10,6 +10,7 @@
 
 .article__txt{
     margin: 24px 16px 24px 10px;
+    font-size: var(--txt-S);
 }
 
 .article__txt-legende{
@@ -27,3 +28,9 @@
     justify-items: center;
 }
 
+.article__txt-title{
+    font-size: var(--txt-M);
+    text-decoration: solid underline var(--gris);
+    margin-left: 7px;
+    margin-top: 15px;
+}

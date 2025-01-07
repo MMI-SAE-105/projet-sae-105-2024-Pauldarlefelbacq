@@ -15,6 +15,12 @@
     align-items: center;
 }
 
+.carroussel__item .article__txt-legende{
+    padding: 0.75rem;
+    align-items: center;
+    margin: 0;
+}
+
 .carroussel__item img {
     display: block;
     width: 80%;

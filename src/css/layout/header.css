@@ -54,42 +54,7 @@
     border-right: 2px solid var(--bleu-marine);
 }
 
-
-.header__logo{
-    margin-left: 14px;
-    display: flex;
-}
-
-.header__lang{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    text-decoration: none;
-}
-
-.header__menu-btn{
-    background: none;
-    border: none;
-    display: flex;
-    gap: 5px;
-}
-
-.header__lang{
-    display: flex;
-    flex-direction: column;
-}
-
-.fr{
-    border-bottom: 2px solid var(--bleu-marine);
-}
-
 .batonfr[aria-hidden="true"],
 .batonen[aria-hidden="true"] {
     border-right: 2px solid var(--beige);
-}
-
-.batonfr[aria-hidden="false"],
-.batonen[aria-hidden="false"] {
-    border-right: 2px solid var(--bleu-marine);
 }

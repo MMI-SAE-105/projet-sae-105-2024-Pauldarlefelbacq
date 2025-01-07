@@ -22,10 +22,11 @@
 }
 
 .frise{
-    position: relative;
+    /* position: relative; */
     width: 100%;
     max-width: 900px;
     padding: 40px 60px;
+    z-index: 1;
 }
 
 .frise:after {
@@ -37,6 +38,7 @@
     width: 8px;
     background: var(--beige);
     border-radius: 3px;
+    z-index: 1;
 }
 
 .frise:before{
@@ -47,5 +49,6 @@
     border-left: 16px solid var(--beige);
     border-bottom: 20px solid transparent;
     left: 49%;
-    bottom: 0%
+    bottom: 0%;
+    z-index: 1;
 }

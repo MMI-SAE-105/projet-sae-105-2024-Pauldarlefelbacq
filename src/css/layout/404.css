@@ -1,0 +1,32 @@
+.erreur{
+    background-color: var(--gris);
+}
+
+.conteneur{
+    margin-top: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--beige);
+    width: auto;
+    align-items: center;
+}
+
+.titre__erreur{
+    font-family: var(--font-exo);
+    color: var(--violet);
+}
+
+.txt__erreur{
+    font-family: var(--font-montserrat);
+    color: var(--gris);
+    font-size: var(--txt-M);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lien__erreur{
+    font-family: var(--font-montserrat);
+    color: var(--violet);
+    font-size: var(--txt-M);
+    padding-bottom: 20px;
+}

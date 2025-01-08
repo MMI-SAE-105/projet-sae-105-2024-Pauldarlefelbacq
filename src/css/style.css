@@ -15,6 +15,7 @@
 @import "layout/header.css";
 @import "layout/footer.css";
 @import "layout/hero.css";
+@import "Layout/404.css";
 
 /* Components */
 @import "components/contact.css";

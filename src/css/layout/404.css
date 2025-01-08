@@ -1,12 +1,11 @@
 .erreur{
-    background-color: var(--gris);
+    background-color: var(--beige);
 }
 
 .conteneur{
     margin-top: 65%;
     display: flex;
     flex-direction: column;
-    background-color: var(--beige);
     width: auto;
     align-items: center;
 }
@@ -22,6 +21,7 @@
     font-size: var(--txt-M);
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .lien__erreur{

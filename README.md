@@ -6,5 +6,5 @@
 - NOM : Darle-Felbacq
 - PRÉNOM : Paul
 - GROUPE : TD A-2
-- URL du site :
-- URL FIGMA :
+- URL du site : http://afthertz.pauldarlef.fr/
+- URL FIGMA : https://www.figma.com/design/KFQXinRJ4cVGz1WXFqpDkn/Maquettes-projet-individuel-%E2%80%94-Paul-DARLE-FELBACQ?node-id=1-118&t=esK0HNOs76fdUr8B-1

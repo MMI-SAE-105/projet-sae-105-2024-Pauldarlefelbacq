@@ -6,6 +6,7 @@
 
         <title>Aft'Hertz</title>
         
+        <link rel="icon" type="image/png" href="../assets/img/favicon.png">
         <link rel="stylesheet" href="../src/css/style.css">
         <script type="module" src="../src/js/script.js"></script>
     </head>
@@ -20,10 +21,10 @@
           </a>
         <div class="header__lang">
           <div class="baton batonfr" aria-hidden="false">
-              <a href="/" class="header__lang__link fr">FR</a>
+              <a href="./article_real.html" class="header__lang__link fr">FR</a>
           </div>
           <div class="baton batonen" aria-hidden="true">
-              <a href="../en/index.html" class="header__lang__link eng">ENG</a>
+              <a href="../en/article_real.html" class="header__lang__link eng">ENG</a>
           </div>
         </div>
         <h2 class="header__title">Aft'Hertz</h2>
@@ -38,12 +39,11 @@
       </button>
 
     <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+      <div class="beige"></div>
       <ul class="header__menu__list list-unstyled">
-        <div class="beige">
-          <li class="header__menu__item">
-            <a class="header__menu__titre underline" href="/">Accueil</a>
-          </li>
-        </div>
+        <li class="header__menu__item">
+          <a class="header__menu__titre underline" href="/fr">Accueil</a>
+        </li>
         <li class="header__menu__item">
           <a class="header__menu__link" href="./article_radio.html">Découverte de la radio</a>
         </li>
@@ -94,7 +94,11 @@
             <section class="article">
                 <h3 class="article__sub-title">Son histoire avec la radio</h3>
                 <p  class="article__txt">Né en 1915, Welles s'est d'abord fait connaître par son travail sur les ondes radiophoniques.<br>Sa célèbre adaptation de "La Guerre des Mondes" en 1938 a démontré le pouvoir immense de ce médium, créant une panique nationale lorsque les auditeurs ont cru à une véritable invasion extraterrestre.<br>Cette émission, captée par les antennes à travers le pays, a révélé la capacité de la radio à façonner l'imaginaire collectif.</p>
-                <img class="article__img" src="../assets/img/img/laguerredesmondes.avif" alt="image du livre de l'adaptation radio de la guerre des mondes">
+                <img 
+                class="article__img" 
+                src="../assets/img/img/laguerredesmondes.avif" 
+                alt="image du livre de l'adaptation radio de la guerre des mondes"
+                loading="lazy">
                 <p class="article__txt-legende">Livre d’où vient son adaptation à la radio</p>
             </section>
 
@@ -149,7 +153,7 @@
 
 
        <footer class="footer">
-            <a class="footer__logo-link" href="/">
+            <a class="footer__logo-link" href="/fr">
                 <img
                   class="footer__logo"
                   src="../assets/img/logos/logositeBlanc.avif"

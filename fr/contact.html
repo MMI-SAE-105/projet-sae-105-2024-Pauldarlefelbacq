@@ -6,6 +6,7 @@
 
         <title>Aft'Hertz</title>
         
+        <link rel="icon" type="image/png" href="../assets/img/favicon.png">
         <link rel="stylesheet" href="../src/css/style.css">
         <script type="module" src="../src/js/script.js"></script>
     </head>
@@ -20,10 +21,10 @@
           </a>
         <div class="header__lang">
           <div class="batonfr">
-              <a href="../index.html" class="header__lang__link fr">FR</a>
+              <a href="./contact.html" class="header__lang__link fr">FR</a>
           </div>
           <div class="batonen">
-              <a href="/en/indexEN.html" class="header__lang__link eng">ENG</a>
+              <a href="../en/contact.html" class="header__lang__link eng">ENG</a>
           </div>
         </div>
         <h2 class="header__title">Aft'Hertz</h2>
@@ -38,12 +39,11 @@
       </button>
 
     <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+      <div class="beige"></div>
       <ul class="header__menu__list list-unstyled">
-        <div class="beige">
-          <li class="header__menu__item">
-            <a class="header__menu__titre underline" href="/">Accueil</a>
-          </li>
-        </div>
+        <li class="header__menu__item">
+          <a class="header__menu__titre underline" href="/fr/">Accueil</a>
+        </li>
         <li class="header__menu__item">
           <a class="header__menu__link" href="./article_radio.html">Découverte de la radio</a>
         </li>
@@ -69,12 +69,15 @@
         
         <main>
             <div class="hero__art">
-                <h1 class="hero__art-title">Contact</h1>
+              <div class="bleu"></div>
+              <h1 class="hero__art-title">Contact</h1>
+              <div class="hero__carre__beige-carre">
                 <h2 class="hero__art-sub-title">N’hésitez pas à remplir le formulaire ci-dessous pour nous contacter</h2>
+              </div>
             </div>
 
             <section class="contact">
-                <form class="form" action="#" aria-labelledby="form-title">
+                 <form class="form" action="#"> 
                     <div>
                       <label class="form__label" for="nom">Nom</label>
                       <input
@@ -118,7 +121,7 @@
 
         
        <footer class="footer">
-            <a class="footer__logo-link" href="/">
+            <a class="footer__logo-link" href="/fr">
                 <img
                   class="footer__logo"
                   src="../assets/img/logos/logositeBlanc.avif"

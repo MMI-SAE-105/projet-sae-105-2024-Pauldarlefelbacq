@@ -29,8 +29,14 @@ nav{
 }
 
 .beige{
+    position: absolute;
     background-color: var(--beige);
-    width: 100%;
+    width: 150%;
+    height: 350px;
+    top:-15%;
+    left:-45%;
+    z-index: -1;
+    rotate: 0.92turn;
 }
 
 .header__menu__titre{
@@ -39,9 +45,9 @@ nav{
     color: var(--gris);
     font-size: var(--txt-XL);
     display: flex;
-    margin-left:5%;
+    margin-left:7%;
     margin-top: 10%;
-    margin-bottom: 25%;
+    margin-bottom: 120px;
 }
 
 .header__menu__link{
@@ -53,7 +59,6 @@ nav{
 
 .header__menu__item{
     margin-bottom: 40px;
-    margin-left: -8%;
     margin-right: -50%;
 }
 
